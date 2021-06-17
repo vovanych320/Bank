@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="headers for cpps">
+      <UniqueIdentifier>{7abd627e-5438-43f4-a67c-9db55ffc9485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{7f3b09b1-ad77-44d4-99c3-889a284bba49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{d9dd603f-95f7-40ca-b655-4938a1f854a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IOperationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISaveDeposit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="CardProxy.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="DefferedICard.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="DefferedIUser.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationManager.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveDeposit.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveDepositProxy.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="UserProxy.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="DefferedIDeposit.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DepositFunctor.h">
+      <Filter>headers for cpps</Filter>
+    </ClInclude>
+    <ClInclude Include="picojson.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CardProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefferedICard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefferedIDeposit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefferedIUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveDeposit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveDepositProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="run.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BERKING24.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="requests.txt" />
+  </ItemGroup>
+</Project>

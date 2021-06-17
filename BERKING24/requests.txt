@@ -1,0 +1,11 @@
+get:
+/api/cards
+/api/transactions
+/api/template
+/api/user_infotmation
+
+post:
+/api/make_transaction
+/api/recover_password
+/api/registrate
+/api/authorize
